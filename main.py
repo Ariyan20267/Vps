@@ -288,7 +288,7 @@ class FreeFireBot:
                 
                 # -------- ARIYAN র‍্যান্ডম কালার রুম মেকার --------
                 selected_color = get_random_color()
-                room_name = f"[B]{selected_color}ARIYAN"
+                room_name = f"[B]{selected_color}Ⓥ"
                 
                 room_pkt = await build_room_packet(room_name, self.key, self.iv)
                 writer.write(room_pkt)
